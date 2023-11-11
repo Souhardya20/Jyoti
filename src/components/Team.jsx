@@ -8,7 +8,7 @@ import SkHabibulIslam from "./assests/Sk Habibul Islam.jpeg"
 import BibekNaskar from "./assests/Bibek Naskar.jpeg"
 import SOURAVGhosh from "./assests/SOURAV Ghosh.jpeg"
 import DiyaMaiti from "./assests/Diya Maiti.jpeg"
-
+import RajdipMondal from ".//assests/Rajdip Monadal.jpeg"
 import subditoghosh from "./assests/subidito ghosh.jpeg"
 
 
@@ -117,6 +117,14 @@ const data = [
     position: "Memeber-Jyoti",
     image: `${subditoghosh}`,
     link: "https://www.linkedin.com/in/subidito-ghosh-383430203/"
+  },
+  {
+    id: 14,
+    name: 'Rajdip Mondal',
+    department: "EE-2024",
+    position: "Memeber-Jyoti",
+    image: `${RajdipMondal}`,
+    link: "https://www.linkedin.com/in/rajdip-mondal-91273923b/"
   },
 ]
 const Team = () => {
