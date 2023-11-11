@@ -21,7 +21,7 @@ const TeamCard = (props) => {
             <p className="mt-5 text-blue-gray-400 text-center">{props.position}</p>
             <div className="flex items-center justify-center gap-2 w-[50%] mx-auto mt-5 mb-10">
               <button className="flex-1 border border-[#231f39] rounded-[4px] py-3 text-white bg-[#493dc8] transition-all duration-150 ease-in hover:bg-[#472e99]">
-                <NavLink to={props.link} className='text-white hover:bg-transparent' >Message</NavLink>
+                <NavLink to={props.link} target='_blank' className='text-white hover:bg-transparent' >Message</NavLink>
               </button>
             </div>
           </section>
