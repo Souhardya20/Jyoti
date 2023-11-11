@@ -8,6 +8,12 @@ import SkHabibulIslam from "./assests/Sk Habibul Islam.jpeg"
 import BibekNaskar from "./assests/Bibek Naskar.jpeg"
 import SOURAVGhosh from "./assests/SOURAV Ghosh.jpeg"
 import DiyaMaiti from "./assests/Diya Maiti.jpeg"
+
+import subditoghosh from "./assests/subidito ghosh.jpeg"
+
+
+
+
 const data = [
   {
     id: 1,
@@ -41,25 +47,26 @@ const data = [
   },
   {
     id: 5,
-    name: 'SOUMI SEBAIT',
-    department: "CE-2024",
-    position: "",
-    image: `${SOUMISEBAIT}`,
-    link: "https://www.linkedin.com/in/soumi-sebait-638730207/"
+    name: 'KRISHNENDU MALLICK',
+    department: "ME-2024",
+    position: "Cashier-Jyoti",
+    image: "https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg",
+    link: "https://www.linkedin.com/in/krishnendu-mallick-00078516b/"
   },
   {
     id: 6,
-    name: 'ACHHIA KHATUN',
+    name: 'SOUMI SEBAIT',
     department: "CE-2024",
-    position: "",
-    image: `${ACHHIAKHATUN}`,
-    link: "https://www.linkedin.com/in/achhia-khatun-86aa6b207/"
+    position: "Memeber-Jyoti",
+    image: `${SOUMISEBAIT}`,
+    link: "https://www.linkedin.com/in/soumi-sebait-638730207/"
   },
+  
   {
     id: 7,
     name: 'Sk Habibul Islam',
     department: "EE-2024",
-    position: "",
+    position: "Memeber-Jyoti",
     image: `${SkHabibulIslam}`,
     link: "https://www.linkedin.com/in/skhabibulislam/"
   },
@@ -67,7 +74,7 @@ const data = [
     id: 8,
     name: 'Bibek Naskar',
     department: "EE-2024",
-    position: "",
+    position: "Memeber-Jyoti",
     image: `${BibekNaskar}`,
     link: "https://www.linkedin.com/in/bibek-naskar-1b1973202/"
   },
@@ -75,7 +82,7 @@ const data = [
     id: 9,
     name: 'Saikat Mitar',
     department: "EE-2024",
-    position: "",
+    position: "Memeber-Jyoti",
     image: "https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg",
     link: "https://www.linkedin.com/in/saikat-mitar-674b1220b/"
   },
@@ -83,7 +90,7 @@ const data = [
     id: 10,
     name: 'SOURAV Ghosh',
     department: "EE-2024",
-    position: "",
+    position: "Memeber-Jyoti",
     image: `${SOURAVGhosh}`,
     link: "https://www.linkedin.com/in/sourav-ghosh-02b3ba213/"
   },
@@ -91,9 +98,25 @@ const data = [
     id: 11,
     name: 'Diya Maiti',
     department: "CE-2024",
-    position: "",
+    position: "Memeber-Jyoti",
     image: `${DiyaMaiti}`,
     link: "https://www.linkedin.com/in/diya-maiti-298590207/"
+  },
+  {
+    id: 12,
+    name: 'ACHHIA KHATUN',
+    department: "CE-2024",
+    position: "Memeber-Jyoti",
+    image: `${ACHHIAKHATUN}`,
+    link: "https://www.linkedin.com/in/achhia-khatun-86aa6b207/"
+  },
+  {
+    id: 13,
+    name: 'Subidito Ghosh',
+    department: "EE-2024",
+    position: "Memeber-Jyoti",
+    image: `${subditoghosh}`,
+    link: "https://www.linkedin.com/in/subidito-ghosh-383430203/"
   },
 ]
 const Team = () => {

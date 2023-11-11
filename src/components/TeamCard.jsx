@@ -5,7 +5,7 @@ const TeamCard = (props) => {
   return (
     <div>
       <section
-            className="w-80 relative bg-[#f6f7f8] rounded-[6px]  overflow-hidden"
+            className="w-80 relative hover:scale-105 transition-transform lg:mb-4  bg-[#f6f7f8] rounded-[6px]  overflow-hidden"
             style={{ boxShadow: "0 8px 40px rgba(0, 0, 0, 0.2)" }}
           >
             <a href="/" target="_blank" className="">

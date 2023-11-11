@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Forms from "./components/Forms";
 import Team from "./components/Team";
+import Gallery from "./components/Gallery";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/form" element={<Forms/>} />
         <Route path="/team" element={<Team/>} />
+        <Route path="/gallery" element={<Gallery/>} />
         
 
       </Routes>

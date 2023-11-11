@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from './assests/Logo.png'
-import { BsInstagram, BsFacebook, BsTelegram } from 'react-icons/bs'
+import { BsInstagram, BsFacebook, BsTelegram, BsLinkedin } from 'react-icons/bs'
 
 
 const Footer = () => {
@@ -25,6 +25,9 @@ const Footer = () => {
               </li>
               <li className='hover:scale-105 transition-transform'>
                 <a href="https://t.me/jyotijgec" target='_blank' rel='noreferrer' class="mr-4 hover:text-blue-400 md:mr-6 "><BsTelegram /></a>
+              </li>
+              <li className='hover:scale-105 transition-transform'>
+                <a href="https://www.linkedin.com/company/jyotijgec/" target='_blank' rel='noreferrer' class="mr-4 hover:text-blue-400 md:mr-6 "><BsLinkedin /></a>
               </li>
 
             </ul>
