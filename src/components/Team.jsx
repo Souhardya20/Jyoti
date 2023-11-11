@@ -31,7 +31,7 @@ const data = [
   },
   {
     id: 3,
-    name: 'AYESWARIYA AGARWAL',
+    name: 'Aeswarya Agarwal',
     department: "CE-2024",
     position: "Secretary-Jyoti",
     image: `${AyeswariyaAgarwal}`,
@@ -47,7 +47,7 @@ const data = [
   },
   {
     id: 5,
-    name: 'KRISHNENDU MALLICK',
+    name: 'Krishnendu Mallick',
     department: "ME-2024",
     position: "Cashier-Jyoti",
     image: "https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg",
@@ -55,7 +55,7 @@ const data = [
   },
   {
     id: 6,
-    name: 'SOUMI SEBAIT',
+    name: 'Soumi Sebait',
     department: "CE-2024",
     position: "Memeber-Jyoti",
     image: `${SOUMISEBAIT}`,
@@ -88,7 +88,7 @@ const data = [
   },
   {
     id: 10,
-    name: 'SOURAV Ghosh',
+    name: 'Sourav Ghosh',
     department: "EE-2024",
     position: "Memeber-Jyoti",
     image: `${SOURAVGhosh}`,
@@ -104,7 +104,7 @@ const data = [
   },
   {
     id: 12,
-    name: 'ACHHIA KHATUN',
+    name: 'Achhia Khatum',
     department: "CE-2024",
     position: "Memeber-Jyoti",
     image: `${ACHHIAKHATUN}`,
