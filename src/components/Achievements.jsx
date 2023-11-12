@@ -66,7 +66,7 @@ const Achievements = () => {
 
   window.addEventListener("scroll", reveal);
   return (
-    <div className="bg-gradient-to-br from-gray-300 to-gray-500">
+    <div className="bg-[#182b51]">
       <div className="container  p-10  text-center mt-10 lg:mt-20">
       <p className="lg:text-4xl text-3xl text-center  text-white pb-2">
         Our Achievements
