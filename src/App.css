@@ -81,4 +81,6 @@ nav{
 .footer{
   animation: 1s ease slideUp;
 }
-
+.team{
+  animation: 1.5s ease-out 0s 1 slideUp;
+}

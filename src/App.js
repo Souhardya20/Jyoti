@@ -1,13 +1,13 @@
 import "./App.css";
 
-import Contact from "./components/Contact";
+import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
-import Home from "./components/Home";
+import Home from "./components/Home/Home";
 import NavBar from "./components/NavBar";
-import Forms from "./components/Forms";
-import Team from "./components/Team";
-import Gallery from "./components/Gallery";
+import Forms from "./components/Contact/Forms";
+import Team from "./components/Team/Team";
+import Gallery from "./components/Gallery/Gallery";
 
 
 function App() {
