@@ -69,10 +69,10 @@ const Navbar = (props) => {
               <li>
                 <NavLink
                   to="/"
-                  className="block py-2 pl-3 pr-4 hover:scale-105 transition-transform rounded hover:bg-gray-100 md:hover:bg-transparent hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block py-2 pl-3  text-white pr-4 hover:scale-105 transition-transform rounded hover:bg-gray-100 md:hover:bg-transparent hover:text-cyan-500 md:p-0 md:dark:hover:text-cyan-500  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                   onClick={clickAndScroll}
                   style={({ isActive }) =>
-                    isActive ? { color: "rgb(2 240 254) " } : { color: "white" }
+                    isActive ? { color: "rgb(2 240 254) " } : {  }
                   }
                 >
                   Home
@@ -82,10 +82,10 @@ const Navbar = (props) => {
               <li>
                 <NavLink
                   to="/gallery"
-                  className="block py-2 pl-3 pr-4 hover:scale-105 transition-transform rounded hover:bg-gray-100 md:hover:bg-transparent hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block py-2 pl-3  text-white pr-4 hover:scale-105 transition-transform rounded hover:bg-gray-100 md:hover:bg-transparent hover:text-cyan-500 md:p-0 md:dark:hover:text-cyan-500  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                   onClick={clickAndScroll}
                   style={({ isActive }) =>
-                    isActive ? { color: "rgb(2 240 254) " } : { color: "white" }
+                    isActive ? { color: "rgb(2 240 254) " } : {  }
                   }
                 >
                   Gallery
@@ -94,10 +94,10 @@ const Navbar = (props) => {
               <li>
                 <NavLink
                   to="/team"
-                  className="block py-2 pl-3 pr-4 hover:scale-105 transition-transform rounded hover:bg-gray-100 md:hover:bg-transparent hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block py-2 pl-3  text-white pr-4 hover:scale-105 transition-transform rounded hover:bg-gray-100 md:hover:bg-transparent hover:text-cyan-500 md:p-0 md:dark:hover:text-cyan-500  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                   onClick={clickAndScroll}
                   style={({ isActive }) =>
-                    isActive ? { color: "rgb(2 240 254) " } : { color: "white" }
+                    isActive ? { color: "rgb(2 240 254) " } : {}
                   }
                 >
                   Team
@@ -107,9 +107,9 @@ const Navbar = (props) => {
                 <NavLink
                   onClick={clickAndScroll}
                   to="/contact"
-                  className="block py-2 pl-3 pr-4 hover:scale-105 transition-transform rounded hover:bg-gray-100 md:hover:bg-transparent hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block py-2 pl-3  text-white pr-4 hover:scale-105 transition-transform rounded hover:bg-gray-100 md:hover:bg-transparent hover:text-cyan-500 md:p-0 md:dark:hover:text-cyan-500  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                   style={({ isActive }) =>
-                    isActive ? { color: "rgb(2 240 254) " } : { color: "white" }
+                    isActive ? { color: "rgb(2 240 254) " } : { }
                   }
                 >
                   Contact
