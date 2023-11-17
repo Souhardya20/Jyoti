@@ -66,7 +66,7 @@ const Galleryimport = () => {
   return (
     <div className="bg-[#e9e7e7]">
       <div className="container  text-center  lg:p-12 pt-12">
-        <p className="text-center pb-9 text-5xl text-teal-500">
+        <p className="text-center pb-9 text-3xl lg:text-5xl text-teal-500">
           Events Gallery
         </p>
         <Gallery galleryImages={galleryImages} />
