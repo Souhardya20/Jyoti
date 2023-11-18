@@ -58,6 +58,7 @@ const Gallery = ({galleryImages},props) => {
             return(
               <div 
                 className='single border-[6px] hover:scale-105 transition-transform border-slate-700' 
+                style={{ boxShadow: "0 8px 40px rgba(0, 0, 0, 0.3)" }}
                 key={index}
                 onClick={ () => handleOpenModal(index) }
               >
