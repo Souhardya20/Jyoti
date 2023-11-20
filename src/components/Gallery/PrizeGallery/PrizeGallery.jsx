@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import Gallery from "../GalleryCard";
 import photo1 from "./images/photo_1_2023-10-21_13-13-28.jpg";
 import photo2 from "./images/photo_2_2023-10-21_13-13-28.jpg";
@@ -63,20 +64,22 @@ const PrizeGallery = () => {
     },
   ];
 
+  
   return (
+    
     <div className="fade-in bg-[#e9e7e7]">
       <div className="container  text-center  lg:px-12 ">
         <p className="text-center pb-9 text-3xl lg:text-5xl text-teal-500">
           Prizes Gallery
         </p>
         <Gallery galleryImages={galleryImages} />
-        <div style={styleimg} className="mt-4">
-          <Gallery galleryImages={galleryImages1} />
+        <div style={styleimg}  className=" mt-4">
+          <Gallery galleryImages={galleryImages1}  />
         </div>
 
         <button
           type="button"
-          class="text-white mt-4 bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+          className="text-white mt-4 bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
           onClick={toggleStyle}
         >
           {btn}

@@ -25,7 +25,7 @@ const Navbar = (props) => {
       >
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <div className="flex items-center">
-            <img src={logo} className="h-10 mr-3" alt="Flowbite Logo" />
+            <img src={logo} className="h-10 mr-3" alt="" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
               JYOTI{" "}
               <span className=" text-xs italic text-yellow-100">

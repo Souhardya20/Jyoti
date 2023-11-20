@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
-
+html{
+  scroll-behavior: smooth;
+}
 body{
   font-family: "Poppins";
 }
@@ -136,5 +138,27 @@ nav{
   }
 }
 
+.loading {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  width: 80px;
+  height: 80px; */
+  
+  animation: loading 2s infinite ease-in-out;
+}
 
+@keyframes loading {
+  0% {
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+  }
 
+  50% {
+    transform: perspective(120px) rotateX(180deg) rotateY(0deg);
+  }
+
+  100% {
+    transform: perspective(120px) rotateX(180deg) rotateY(-180deg);
+  }
+}
