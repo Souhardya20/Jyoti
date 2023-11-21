@@ -162,3 +162,20 @@ nav{
     transform: perspective(120px) rotateX(180deg) rotateY(-180deg);
   }
 }
+.top-btn{
+  font-size: 0.8rem;
+  width: 2rem;
+  height: 2rem;
+  color: white;
+  background-color: rgb(13, 88, 174);
+  border-radius: 50%;
+  position: fixed;
+  bottom: 5rem;
+  right: 2rem;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  animation: 0.8s ease slideUp;
+}

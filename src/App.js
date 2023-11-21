@@ -1,5 +1,5 @@
 import "./App.css";
-import { useEffect,useState } from "react";
+import { useEffect, useState } from "react";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
@@ -9,9 +9,7 @@ import Forms from "./components/Contact/Forms";
 import Team from "./components/Team/Team";
 import Album from "./components/Gallery/Album";
 import Loader from "./components/Loader";
-
-
-
+import GoToTop from "./components/GoToTop";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -19,23 +17,20 @@ function App() {
     setTimeout(() => setLoading(false), 3300);
   }, []);
   if (loading) {
-    return <Loader/>;
+    return <Loader />;
   }
   return (
     <>
-      
       <NavBar />
-      
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/form" element={<Forms/>} />
-        <Route path="/team" element={<Team/>} />
-        <Route path="/gallery" element={<Album/>} />
-        
-
+        <Route path="/form" element={<Forms />} />
+        <Route path="/team" element={<Team />} />
+        <Route path="/gallery" element={<Album />} />
       </Routes>
-      
+      <GoToTop/>
       <Footer />
     </>
   );
