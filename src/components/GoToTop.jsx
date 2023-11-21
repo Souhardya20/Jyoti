@@ -38,7 +38,7 @@ const GoToTop = () => {
     <div class="scrollup" id="scroll-up" onClick={clickAndScroll}>
    
   
-   <i class="uil uil-arrow-up scrollup__icon"></i>
+   <i class="fa-solid fa-arrow-up fa-beat"></i>
     </div>
     
   );
