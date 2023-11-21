@@ -11,16 +11,18 @@ const GoToTop = () => {
     scrollToTop();
   };
 
-  const [Show, setShow] = useState(true);
+  const [show, setShow] = useState({
+    display:"none"
+  });
 
   const listenToScroll = () => {
     let height = 100;
     const winScroll =
       document.body.scrollTop || document.documentElement.scrollTop;
-    if (winScroll <= height) {
-      setShow(true);
+    if (winScroll >= height) {
+      setShow({display:"block"});
     } else {
-      setShow(false);
+      setShow({display:"none"});
     }
   };
 
@@ -31,13 +33,13 @@ const GoToTop = () => {
   }, []);
 
   return (
-    Show && (
-      <div className="flex justify-center items-center">
+    
+      <div className="flex justify-center items-center" style={show}>
         <div className="top-btn" onClick={clickAndScroll}>
-          <i class="fa-solid fa-arrow-up fa-beat"></i>
+        <i class="fa-solid fa-arrow-up fa-beat"></i>
         </div>
       </div>
-    )
+    
   );
 };
 

@@ -21,6 +21,7 @@ function App() {
   }
   return (
     <>
+    
       <NavBar />
 
       <Routes>
