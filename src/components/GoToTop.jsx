@@ -17,7 +17,7 @@ const GoToTop = () => {
     let height = 100;
     const winScroll =
       document.body.scrollTop || document.documentElement.scrollTop;
-    if (winScroll >= height) {
+    if (winScroll <= height) {
       setShow(true);
     } else {
       setShow(false);
