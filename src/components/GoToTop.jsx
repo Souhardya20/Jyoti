@@ -11,7 +11,7 @@ const GoToTop = () => {
     scrollToTop();
   };
 
-  const [Show, setShow] = useState(false);
+  const [Show, setShow] = useState(true);
 
   const listenToScroll = () => {
     let height = 100;
