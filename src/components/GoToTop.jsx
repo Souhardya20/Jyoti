@@ -31,7 +31,7 @@ const GoToTop = () => {
   }, []);
 
   return (
-    Show && (
+    !Show && (
       <div className="flex justify-center items-center">
         <div className="top-btn" onClick={clickAndScroll}>
           <i class="fa-solid fa-arrow-up fa-beat"></i>
