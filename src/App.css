@@ -209,3 +209,7 @@ nav{
 .show-scroll {
   bottom: 5rem;
 }
+
+.hideen{
+  display: none;
+}
