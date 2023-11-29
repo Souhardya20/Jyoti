@@ -16,10 +16,10 @@ const NavBar = () => {
     scrollToTop();
   };
   return (
-   
-    <Navbar fluid  className='  py-3 sticky top-0 z-10 ' style={{backgroundColor:"rgb(34 33 63)"}}>
-      <Navbar.Brand >
-      <div className="flex  items-center">
+
+    <Navbar fluid className='  py-3 sticky top-0 z-10 ' style={{ backgroundColor: "rgb(34 33 63)" }}>
+     
+        <div className="flex items-center">
           <img src={logo} className="h-10 mr-3" alt="" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
             JYOTI{" "}
@@ -27,9 +27,9 @@ const NavBar = () => {
               Free Night Education
             </span>
           </span>
-          </div>
-      </Navbar.Brand>
-      <Navbar.Toggle className=" bg-transparent text-white focus:bg-transparent focus:border-0"  />
+        </div>
+      
+      <Navbar.Toggle className=" bg-transparent text-white focus:bg-transparent hover:bg-transparent focus:border-0" />
       <Navbar.Collapse className="border-[2px] lg:border-0 md:border-0 px-4 lg:px-14 mt-4 lg:mt-0 border-white">
         <li>
           <NavLink
@@ -82,7 +82,7 @@ const NavBar = () => {
         </li>
       </Navbar.Collapse>
     </Navbar>
-   
+
   );
 }
 export default NavBar
