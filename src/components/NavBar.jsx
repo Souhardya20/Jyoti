@@ -30,7 +30,7 @@ const NavBar = () => {
         </div>
       
       <Navbar.Toggle className=" bg-transparent text-white focus:bg-transparent hover:bg-transparent focus:border-0" />
-      <Navbar.Collapse className="border-[2px] lg:border-0 md:border-0 px-4 lg:px-14 mt-4 lg:mt-0 border-white">
+      <Navbar.Collapse className="border-[2px] rounded-lg lg:border-0 md:border-0 px-4 lg:px-14 mt-4 lg:mt-0 border-white">
         <li>
           <NavLink
             to="/"
