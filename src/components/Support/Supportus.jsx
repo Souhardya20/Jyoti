@@ -17,7 +17,7 @@ const Supportus = () => {
           <p className="lg:text-2xl">A/c no: 34615713229</p>
           <p className="lg:text-2xl">IFSC: SBIN0007194</p>
           <p className="lg:text-2xl">Branch: Denguajhar</p>
-          <p className="pt-6 text-xl italic">
+          <p className="pt-6 text-sm lg:text-xl italic">
             Your support for this noble cause can help us to run this centre
             better, since this centre is a separate body in our college. Your
             contributions can help poor children to read and write and in turn
