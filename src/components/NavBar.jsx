@@ -24,13 +24,13 @@ const NavBar = () => {
           <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
             JYOTI{" "}
             <span className=" text-xs italic text-yellow-100">
-              Free Night Education
+              Free Night Education Camp
             </span>
           </span>
         </div>
       
-      <Navbar.Toggle className=" bg-transparent text-white focus:bg-transparent hover:bg-transparent focus:border-0" />
-      <Navbar.Collapse className="border-[2px] rounded-lg lg:border-0 md:border-0 px-4 lg:px-14 mt-4 lg:mt-0 border-white">
+      <Navbar.Toggle className=" bg-transparent text-white  focus:bg-transparent hover:bg-transparent focus:border-0" />
+      <Navbar.Collapse className="border-[2px] lg:border-0 rounded-lg  md:border-0 px-4 lg:px-14 mt-4 lg:mt-0 border-white">
         <li>
           <NavLink
             to="/"
@@ -66,6 +66,18 @@ const NavBar = () => {
             }
           >
             Team
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            onClick={clickAndScroll}
+            to="/support"
+            className="block py-2 pl-3 text-xl  text-white pr-4 hover:scale-105 transition-transform rounded hover:bg-gray-100 md:hover:bg-transparent hover:text-cyan-500 md:p-0 md:dark:hover:text-cyan-500  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+            style={({ isActive }) =>
+              isActive ? { color: "rgb(2 240 254) " } : {}
+            }
+          >
+            Support
           </NavLink>
         </li>
         <li>

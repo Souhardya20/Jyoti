@@ -44,8 +44,8 @@ const Gallery = ({galleryImages},props) => {
       {openModal && 
         <div className='sliderWrap galani' >
           
-          <FontAwesomeIcon icon={faCircleChevronLeft} className='btnPrev' onClick={prevSlide} />
-          <FontAwesomeIcon icon={faCircleChevronRight} className='btnNext' onClick={nextSlide} />
+          <FontAwesomeIcon icon={faCircleChevronLeft} className='btnPrev text-4xl' onClick={prevSlide} />
+          <FontAwesomeIcon icon={faCircleChevronRight} className='btnNext text-4xl' onClick={nextSlide} />
           <div className='fullScreenImage ' onClick={handleCloseModal}>
             <img src={galleryImages[slideNumber].img} alt='' />
           </div>

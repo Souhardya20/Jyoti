@@ -74,10 +74,6 @@
   }
   .galani {
     animation: galani ease 1s;
-    -webkit-animation: galani ease 1s;
-    -moz-animation: galani ease 1s;
-    -o-animation: galani ease 1s;
-    -ms-animation: galani ease 1s;
   }
   
   

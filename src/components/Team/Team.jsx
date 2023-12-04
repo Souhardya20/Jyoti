@@ -132,11 +132,11 @@ const data = [
 const Team = () => {
   return (
     <div className="bg-[#d8d5d5d2] ">
-      <div className="items-center pb-4 lg:h-auto pt-10 lg:p-14 text-[#9e9cb6]">
+      <div className="items-center pb-4 lg:h-auto pt-8 lg:p-8 text-[#9e9cb6]">
         <p className="text-[#3a6ec8] home text-center font-medium pb-10 text-[34px] ">
           Core Team - JYOTI
         </p>
-        <div className="grid fade-in place-items-center lg:grid-cols-4 md:grid-cols-3 gap-4">
+        <div className="flex justify-center flex-wrap gap-8 ">
           {data.map((e) => (
             <TeamCard
               name={e.name}

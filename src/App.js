@@ -10,11 +10,13 @@ import Team from "./components/Team/Team";
 import Album from "./components/Gallery/Album";
 import Loader from "./components/Loader";
 import GoToTop from "./components/GoToTop";
+import Supportus from "./components/Support/Supportus";
+
 
 function App() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    setTimeout(() => setLoading(false), 3300);
+    setTimeout(() => setLoading(false), 1500);
   }, []);
   if (loading) {
     return <Loader />;
@@ -30,6 +32,7 @@ function App() {
         <Route path="/form" element={<Forms />} />
         <Route path="/team" element={<Team />} />
         <Route path="/gallery" element={<Album />} />
+        <Route path="/support" element={<Supportus/>} />
       </Routes>
       <GoToTop/>
       <Footer />

@@ -78,10 +78,10 @@ nav{
 .reveal.active {
   opacity: 1;
 }
-.active.support{
+.support{
   animation: 1s ease-in slideInRight;
 }
-.active.support-img{
+.support-img{
   animation: 1s ease-in slideInLeft;
 }
 .footer{
@@ -166,23 +166,7 @@ nav{
     transform: perspective(120px) rotateX(180deg) rotateY(-180deg);
   }
 }
-.top-btn{
-  font-size: 0.8rem;
-  width: 2rem;
-  height: 2rem;
-  color: white;
-  background-color: rgb(13, 88, 174);
-  border-radius: 50%;
-  position: fixed;
-  bottom: 5rem;
-  right: 2rem;
-  z-index: 999;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  animation: 0.8s ease-in-out slideUp;
-}
+
 .scrollup {
   font-size: 0.8rem;
   color: white;
@@ -197,7 +181,7 @@ nav{
   height: 2rem;
   border-radius: 50%;
   z-index: 1;
-  transition: 0.4s;
+  transition: 0.6s;
 }
 
 .scrollup:hover {
@@ -214,6 +198,3 @@ nav{
   bottom: 5rem;
 }
 
-.hideen{
-  display: none;
-}
