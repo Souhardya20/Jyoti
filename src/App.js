@@ -11,7 +11,7 @@ import Album from "./components/Gallery/Album";
 import Loader from "./components/Loader";
 import GoToTop from "./components/GoToTop";
 import Supportus from "./components/Support/Supportus";
-
+import Notice from "./components/Notice/Notice";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -23,18 +23,17 @@ function App() {
   }
   return (
     <>
-    
       <NavBar />
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/form" element={<Forms />} />
         <Route path="/team" element={<Team />} />
         <Route path="/gallery" element={<Album />} />
-        <Route path="/support" element={<Supportus/>} />
+        <Route path="/support" element={<Supportus />} />
+        <Route path="/notice" element={<Notice/>} />
       </Routes>
-      <GoToTop/>
+      <GoToTop />
       <Footer />
     </>
   );

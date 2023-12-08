@@ -70,7 +70,7 @@ const EventsGallery = () => {
           Events Gallery
         </p>
         <Gallery galleryImages={galleryImages} />
-        <div style={styleimg} className="mt-4">
+        <div style={styleimg} className="mt-4 ">
           <Gallery galleryImages={galleryImages1} />
         </div>
 

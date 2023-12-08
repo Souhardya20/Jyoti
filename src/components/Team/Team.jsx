@@ -136,7 +136,7 @@ const Team = () => {
         <p className="text-[#3a6ec8] home text-center font-medium pb-10 text-[34px] ">
           Core Team - JYOTI
         </p>
-        <div className="flex justify-center flex-wrap gap-8 ">
+        <div className="flex fade-in justify-center flex-wrap gap-8 ">
           {data.map((e) => (
             <TeamCard
               name={e.name}
