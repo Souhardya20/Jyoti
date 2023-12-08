@@ -3,7 +3,7 @@ import "./notice.css";
 const Notice = () => {
   return (
     <div className=" flex  flex-col items-center p-4 ">
-      <h2 className="text-center text-4xl font-bold text-[#2c4964]">NOTICE</h2>
+      <h2 className="text-center text-3xl lg:text-4xl font-bold text-[#2c4964]">NOTICE</h2>
 
       <div className=" px-8 lg:px-16 pb-10 mt-4  bg-[#01204E] lg:w-[800px] rounded-[15px] ">
         <div className="pt-14 text-white title ">
